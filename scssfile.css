@@ -1,0 +1,17 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f4f4; }
+  body h1 {
+    color: #3498db; }
+  body .btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer; }
+    body .btn:hover {
+      background-color: #217dbb; }
+
+/* CSS Document */
