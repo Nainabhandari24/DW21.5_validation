@@ -1,0 +1,42 @@
+/*
+Error: Invalid CSS after "...ica, sans-serif": expected expression (e.g. 1px, bold), was ";"
+        on line 3 of C:\Users\dipkumar\Desktop\Unnamed Site 7\Untitled-1.sass
+
+1: SassPlayground
+2: SCSS Syntax
+3: $font-stack: Helvetica, sans-serif;
+4: $primary-color: #333;
+5: 
+6: body {
+7:   font: 100% $font-stack;
+8:   color: $primary-color;
+
+Backtrace:
+C:\Users\dipkumar\Desktop\Unnamed Site 7\Untitled-1.sass:3
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in 'Sass::SCSS::Parser.expected'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/script/lexer.rb:240:in 'Sass::Script::Lexer#expected!'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/script/parser.rb:897:in 'Sass::Script::Parser#assert_done'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/script/parser.rb:69:in 'Sass::Script::Parser#parse'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/script/parser.rb:228:in 'Sass::Script::Parser.parse'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/script.rb:27:in 'Sass::Script.parse'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:1169:in 'Sass::Engine#parse_script'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:779:in 'Sass::Engine#parse_variable'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:650:in 'Sass::Engine#parse_line'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:539:in 'Sass::Engine#build_tree'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:558:in 'block in Sass::Engine#append_children'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in 'Array#each'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in 'Sass::Engine#append_children'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:417:in 'Sass::Engine#_to_tree'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in 'Sass::Engine#render'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:396:in 'Sass::Exec::SassScss#run'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in 'Sass::Exec::SassScss#process_result'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in 'Sass::Exec::Base#parse'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in 'Sass::Exec::Base#parse!'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.4.0/gems/sass-3.7.4/bin/sass:13:in '<top (required)>'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/bin/sass:36:in 'Kernel#load'
+C:/Users/dipkumar/Desktop/Custom_Location/Adobe Dreamweaver 2021/ruby/bin/sass:36:in '<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ica, sans-serif\": expected expression (e.g. 1px, bold), was \";\"\A         on line 3 of C:\Users\dipkumar\Desktop\Unnamed Site 7\Untitled-1.sass\A \A 1: SassPlayground\A 2: SCSS Syntax\A 3: $font-stack: Helvetica, sans-serif;\A 4: $primary-color: #333;\A 5: \A 6: body {\A 7:   font: 100% $font-stack;\A 8:   color: $primary-color;"; }
